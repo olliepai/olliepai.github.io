@@ -1,0 +1,49 @@
+body {
+    overflow: scroll;
+}
+
+#head {
+    height: 200px;
+}
+
+#tag {
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#bio {
+    font-family: "Cartograph CF";
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+
+}
+
+#social {
+    margin: 20px;
+    text-align: center;
+}
+
+#github, #linkedin {
+    display: inline-block;
+    width: 3%;
+    margin: 5px 10px;
+}
+
+#spacer {
+    height: 75px;
+}
+
+#dev-projects, #history-day {
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#scroll {
+    height: 900px;
+}
