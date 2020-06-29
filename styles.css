@@ -25,12 +25,12 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:active {
     color: #89d7ab;
 }
 
 #head-spacer {
-    height: 300px;
+    height: 250px;
 }
 
 #tag {
@@ -49,9 +49,13 @@ a:hover {
     width: 50%;
 }
 
-#social {
-    margin: 30px;
+#inquiries {
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: bold;
     text-align: center;
+    line-height: 1.5;
+    margin: 50px;
 }
 
 #github, #linkedin {
@@ -80,10 +84,44 @@ a:hover {
     line-height: 1.5;
 }
 
+sup {
+    font-size: 8px;
+    font-style: normal;
+}
+
+.under-construction {
+    font-family: "Cartograph CF";
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5;
+    color: #df6c48
+}
+
 .work-spacer {
     height: 200px;
 }
 
-#scroll {
-    height: 900px;
+#find-me {
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+#social {
+    margin: 30px;
+    text-align: center;
+}
+
+#bottom-spacer {
+    height: 75px;
+}
+
+#foot {
+    font-family: "Cartograph CF";
+    font-size: 11px;
+    text-align: center;
+    margin: 20px;
 }
