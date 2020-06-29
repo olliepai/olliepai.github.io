@@ -1,9 +1,36 @@
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url("./assets/fonts/RobotoCondensed-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Cartograph CF";
+    src: url("./assets/fonts/CartographCF-Regular.otf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cartograph CF";
+    src: url("./assets/fonts/CartographCF-RegularItalic.otf");
+    font-style: italic;
+}
+
 body {
     overflow: scroll;
 }
 
-#head {
-    height: 200px;
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #89d7ab;
+}
+
+#head-spacer {
+    height: 300px;
 }
 
 #tag {
@@ -11,6 +38,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    margin: 30px;
 }
 
 #bio {
@@ -19,29 +47,41 @@ body {
     text-align: center;
     margin: auto;
     width: 50%;
-
 }
 
 #social {
-    margin: 20px;
+    margin: 30px;
     text-align: center;
 }
 
 #github, #linkedin {
     display: inline-block;
-    width: 3%;
+    width: 35px;
     margin: 5px 10px;
 }
 
-#spacer {
-    height: 75px;
+#mid-spacer {
+    height: 300px;
 }
 
-#dev-projects, #history-day {
+#dev-projects, #history-day, #podcast {
     font-family: "Roboto Condensed";
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
+    margin: 30px;
+}
+
+.project {
+    font-family: "Cartograph CF";
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.work-spacer {
+    height: 200px;
 }
 
 #scroll {
