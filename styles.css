@@ -100,6 +100,17 @@ a:hover, a:active {
     line-height: 1.5;
 }
 
+@media (max-width: 500px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    .project {
+        font-family: "Cartograph CF";
+        font-size: 15px;
+        font-style: italic;
+        text-align: left;
+        line-height: 1.5;
+    }
+}
+
 sup {
     font-size: 8px;
     font-style: normal;
