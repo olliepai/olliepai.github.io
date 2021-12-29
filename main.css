@@ -13,16 +13,19 @@
 body {
   margin: 0;
   padding: 0;
-  margin: 5rem auto;
-  width: 70vw;
-  max-width: 40rem;
   background-color: var(--bg);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1rem;
   color: var(--text);
 }
 
-@media only screen and (max-width: 46rem) {
+#content {
+  margin: 5rem auto;
+  width: 70vw;
+  max-width: 40rem;
+}
+
+@media only screen and (max-width: 40rem) {
   /* For mobile phones: */
   #content {
     margin: 5rem 2rem;
