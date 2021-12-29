@@ -3,6 +3,7 @@
   --text: black;
   --resources: #15926c;
   --hover: rgba(10, 132, 255, 1);
+  --border: #c2c2c2;
 }
 
 @font-face {
@@ -107,7 +108,7 @@ a:hover {
 
 .spacer {
   height: 2rem;
-  border-bottom: .05rem solid #c2c2c2;
+  border-bottom: .05rem solid var(--border);
 }
 
 h2 {
@@ -131,4 +132,10 @@ h3 {
   background-size: 13px;
   padding-right: 16px;
   background-position-y: 2px;
+}
+
+#footer {
+  font-size: .75rem;
+  color: var(--border);
+  text-align: center;
 }
