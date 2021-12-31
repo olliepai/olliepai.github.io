@@ -67,13 +67,6 @@ h1 {
   left: -1.5rem;
 }
 
-#head, .image-cropper {
-  -webkit-user-select: none; /* Safari */        
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
-  user-select: none; /* Standard */
-}
-
 #profile {
   display: inline;
   margin: 0 auto;
@@ -138,4 +131,15 @@ h3 {
   font-size: .75rem;
   color: var(--border);
   text-align: center;
+}
+
+#moon {
+  text-align: center;
+}
+
+#head, .image-cropper, #footer, #moon {
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
