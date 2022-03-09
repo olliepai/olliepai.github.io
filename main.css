@@ -1,14 +1,8 @@
 :root {
   --bg: white;
   --text: black;
-  --resources: #15926c;
   --hover: rgba(10, 132, 255, 1);
   --border: #c2c2c2;
-}
-
-@font-face {
-  font-family: "Arial Narrow";
-  src: url('./ARIALN.TTF') format('truetype');
 }
 
 body {
@@ -32,11 +26,6 @@ body {
     margin: 5rem auto;
     width: 90vw;
   }
-}
-
-::selection {
-  color: var(--bg);
-  background: var(--text);
 }
 
 #header {
@@ -91,7 +80,6 @@ a:hover {
 }
 
 .nav {
-  color: var(--resources);
   text-decoration: none;
 }
 
@@ -134,6 +122,7 @@ h3 {
 }
 
 #moon {
+  font-size: 1.2rem;
   text-align: center;
 }
 
