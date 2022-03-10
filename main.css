@@ -121,12 +121,12 @@ h3 {
   text-align: center;
 }
 
-#moon {
+#me {
   font-size: 1.2rem;
   text-align: center;
 }
 
-#head, .image-cropper, #footer, #moon {
+#head, .image-cropper, #footer, #me {
   -webkit-user-select: none; /* Safari */        
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
