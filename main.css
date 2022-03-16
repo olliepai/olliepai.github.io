@@ -8,10 +8,7 @@ body {
 }
 
 #content {
-  margin-top: 35vh;
-  margin-left: auto;
-  margin-right: auto;
-  /* margin: 30vh auto auto; */
+  margin: 34vh auto;
   width: 70vw;
   max-width: 40rem;
 }
@@ -19,7 +16,7 @@ body {
 @media only screen and (max-width: 40rem) {
   /* For mobile phones: */
   #content {
-    margin: 5rem auto;
+    margin: 34vh auto;
     width: 90vw;
   }
 }
