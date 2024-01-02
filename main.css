@@ -10,21 +10,25 @@ body {
   line-height: 1.3;
   color: #000;
   user-select: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
   --neilwhite: #cfd5e0;
 }
 
 #term {
+  margin: 5vw auto;
   width: 90vw;
   padding: 2rem;
   border: .5px solid #000;
   border-radius: 10px;
+  overflow: auto;
 }
 
 @media screen and (min-width: 800px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
   #term {
     width: 700px;
   }
