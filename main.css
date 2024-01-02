@@ -15,10 +15,10 @@ body {
 
 #term {
   margin: 5vw auto;
-  width: 90vw;
+  width: 80vw;
   padding: 2rem;
-  border: 1px solid #000;
-  border-radius: 10px;
+  border: .5px solid #000;
+  border-radius: 5px;
   overflow: auto;
 }
 
