@@ -1,26 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <title>Ollie Pai</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/x-icon" href="./technologist-light-skin-tone_1f9d1-1f3fb-200d-1f4bb.png">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
-    <base target="_blank">
   </head>
   <body>
-    <div id="content">
-      <div id="header">
-        <h1 id="name">Ollie Pai</h1>
-        <div class="image-cropper">
-          <img id="profile" src="./DSCF6441.jpeg" alt="profile">
-        </div>
-      </div>
-      <a class="nav" style="color:#c887c6;">o.pai@ucla.edu</a>
-      &nbsp·&nbsp
-      <a class="nav" href="https://github.com/olpai" style="color:#f49f58;">GitHub</a>
-      &nbsp·&nbsp
-      <a class="nav" href="https://github.com/olpai/olpai.github.io/blob/main/nicholas-pai_resume_2023-01-20.pdf" style="color:#adb74a;">Resume</a>
+    <div id="term">
+      <p id="desc">Ollie Pai is exploring systems that aim to augment productivity, with a specific emphasis on web development and data management. Positioned at the intersection of art and technology, he possesses a multifaceted background in computer science, human-computer interaction, and design.</p>
+      <div class="mspacer"></div>
+      <ul>
+        <li><span id="email" class="copy" onclick="copyEmail()">o.pai@ucla.edu</span></li>
+        <li><span id="phone" class="copy" onclick="copyPhone()">+1 858 922 3270</span></li>
+        <li>University of California, Los Angeles</li>
+        <li class="mspacer"></li>
+        <li><a class="resource" href="https://github.com/olpai" target="_blank">GitHub</a></li>
+        <li><a class="resource" href="https://linkedin.com/in/ollie-pai-434232170" target="_blank">LinkedIn</a></li>
+        <li><a class="resource" href="https://drive.google.com/file/d/180ugEJxZxKbFBBJKFCwwxe9tEv0P4HFp/view?usp=drive_link" target="_blank">Resume</a></li>
+      </ul>
+      <div class="lspacer"></div>
+      <table>
+        <tr>
+          <td>Experience</td>
+          <td style="width:40px;"></td>
+          <td>Full-Stack Engineer @ <a href="https://www.creativelabsucla.com/" target="_blank">Creative Labs</a></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Jan 2023–Present</td>
+        </tr>
+        <tr class="sspacer"></tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Full-Stack Engineer @ Bruin Planner</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Sep 2022–Present</td>
+        </tr>
+        <tr class="sspacer"></tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Front-End Engineer @ onTrack</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Sep 2021–Mar 2022</td>
+        </tr>
+        <tr class="sspacer"></tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Data Journalist @ <a href="https://bruinsportsanalytics.com/post/neo_positions" target="_blank">Bruin Sports Analytics</a></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Sep 2021–Dec 2021</td>
+        </tr>
+        <tr class="sspacer"></tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Research Intern @ Qualcomm Wireless Research Division</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Sep 2019–Mar 2020</td>
+        </tr>
+        <tr class="mspacer"></tr>
+        <tr>
+          <td>Projects</td>
+          <td style="width:40px;"></td>
+          <td><a href="https://breadcrumbs.wumpler.com/" target="_blank">Breadcrumbs</a></td>
+        </tr>
+        <tr class="sspacer"></tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>3D Snake</td>
+        </tr>
+        <tr class="sspacer"></tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Brawl</td>
+        </tr>
+      </table>
+      <div class="lspacer"></div>
+      <p>Last updated: Tue Jan 2 2024</p>
     </div>
+    <script>
+      function copyEmail() {
+        var copyText = "o.pai@ucla.edu";
+        navigator.clipboard.writeText(copyText);
+        document.getElementById("email").innerText = "copied";
+        setTimeout(() => {
+          document.getElementById("email").innerText = copyText;
+        }, 1000);
+      }
+
+      function copyPhone() {
+        var copyText = "+1 858 922 3270";
+        navigator.clipboard.writeText(copyText);
+        document.getElementById("phone").innerText = "copied";
+        setTimeout(() => {
+          document.getElementById("phone").innerText = copyText;
+        }, 1000);
+      }
+    </script>
   </body>
 </html>
