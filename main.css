@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Atlas Grotesk';
+  src: url('../../AtlasGrotesk-Regular.otf') format('opentype');
+}
+
 body {
   background-color: var(--neilwhite);
   font-family: 'Atlas Grotesk';
