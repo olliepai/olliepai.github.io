@@ -19,7 +19,7 @@ body {
 }
 
 #cv {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 a:hover, .copy:hover {
@@ -31,10 +31,38 @@ a:hover, .copy:hover {
   text-decoration: underline;
 }
 
+.lspacer {
+  height: 50px;
+}
+
+.mspacer {
+  height: 30px;
+}
+
+.sspacer {
+  height: 12px;
+}
+
 @media screen and (min-width: 440px) {
   body {
     padding: 2rem;
     font-size: 4rem;
+  }
+
+  #cv {
+    font-size: 2rem;
+  }
+
+  .lspacer {
+    height: 100px;
+  }
+  
+  .mspacer {
+    height: 50px;
+  }
+  
+  .sspacer {
+    height: 25px;
   }
 }
 
@@ -42,16 +70,4 @@ a:hover, .copy:hover {
   .collapse {
     display: flex;
   }
-}
-
-.lspacer {
-  height: 100px;
-}
-
-.mspacer {
-  height: 50px;
-}
-
-.sspacer {
-  height: 25px;
 }
